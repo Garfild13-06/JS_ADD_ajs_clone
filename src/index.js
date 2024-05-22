@@ -1,10 +1,4 @@
-function info() {
-    const m = new Map();
-    m.set('name', 'ajs');
-    m.set('version', '1.0.0');
-    return m;
-}
+// у вас будет не netology-code, а ваш username
+const ajs = require('@garfild13-06/js_add_ajs');
 
-export default {
-    info
-};
+console.log(ajs.info());
